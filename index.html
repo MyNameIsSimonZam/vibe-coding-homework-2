@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Событие</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="event-card">
+      <h1 id="event-title"></h1>
+      <p id="event-date"></p>
+      <p id="event-place"></p>
+      <p id="event-description"></p>
+      <button id="show-program" type="button">Показать программу</button>
+      <p id="program" hidden></p>
+    </section>
+
+    <p id="data-error" class="error" role="alert" hidden></p>
+
+    <form id="service-form" class="service-form" hidden>
+      <h2>Дополнительные услуги</h2>
+      <label for="guide">
+        <input id="guide" name="guide" type="checkbox">
+        <span id="guide-label"></span>
+      </label>
+      <label for="audio">
+        <input id="audio" name="audio" type="checkbox">
+        <span id="audio-label"></span>
+      </label>
+      <label for="catalog">
+        <input id="catalog" name="catalog" type="checkbox">
+        <span id="catalog-label"></span>
+      </label>
+      <button type="submit">Рассчитать</button>
+    </form>
+
+    <p id="choice-error" class="error" role="alert" hidden></p>
+    <div id="result" class="result" aria-live="polite" hidden></div>
+    <pre id="report-json" class="report-json" hidden></pre>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

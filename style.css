@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 24px 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #243247;
+    background-color: #eef1f5;
+}
+
+.page {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.event-card {
+    padding: 24px;
+    border: 1px solid #ccd3dd;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.service-form {
+    margin: 20px 0;
+    padding: 24px;
+    border: 1px solid #ccd3dd;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+h1 {
+    margin: 0 0 16px;
+    font-size: 28px;
+}
+
+h2 {
+    margin: 0 0 16px;
+    font-size: 20px;
+}
+
+p {
+    margin: 12px 0;
+}
+
+label {
+    display: block;
+    margin: 12px 0;
+}
+
+input {
+    margin-right: 8px;
+}
+
+button {
+    margin-top: 8px;
+    padding: 10px 16px;
+    border: 1px solid #254d7a;
+    border-radius: 4px;
+    font: inherit;
+    color: #ffffff;
+    background-color: #315f92;
+    cursor: pointer;
+}
+
+.error {
+    margin: 16px 0;
+    padding: 12px;
+    border: 1px solid #ba5757;
+    color: #8b2727;
+    background-color: #fff1f1;
+}
+
+.result {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #9bbda9;
+    border-radius: 8px;
+    background-color: #f0faf3;
+}
+
+.report-json {
+    margin: 16px 0;
+    padding: 16px;
+    border: 1px solid #ccd3dd;
+    background-color: #ffffff;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    font-size: 14px;
+}
